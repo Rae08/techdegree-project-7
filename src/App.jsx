@@ -4,13 +4,7 @@ import SearchForm from "./components/SearchForm";
 import MainNav from "./components/MainNav";
 import PhotoContainer from "./components/PhotoContainer";
 import apiKey from "./config";
-import {
-  BrowserRouter,
-  Route,
-  Switch,
-  useParams,
-  useLocation
-} from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Error from "./components/404";
 import axios from "axios";
 
